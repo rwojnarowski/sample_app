@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.1'
+gem 'pg',             '0.17.1'
 gem 'bootstrap-sass', '3.2.0.0'
 gem 'faker',    '1.4.2'
 gem 'will_paginate',           '3.0.7'
@@ -32,7 +33,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg',
+  gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
   gem 'puma',           '2.11.1'
 end
