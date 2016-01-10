@@ -1,0 +1,8 @@
+== Live version
+http://sheltered-escarpment-4441.herokuapp.com/
+
+Sample app created with railstutorial.org
+
+- Rails 4.2.1
+
+//AWS for image upload is turned off.
